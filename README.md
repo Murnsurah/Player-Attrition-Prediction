@@ -2,12 +2,18 @@
 This repository contains a churn detection system using supervised learning techniques to identify players likely to churn. The project establishes a baseline model addressing player attrition challenges in the gaming industry, offering insights into user behavior and helping improve retention strategies.
 
 ## Table of Contents
+- Dataset Used
+- Technologies Used
+- Usage
+- Features
+- Contact
 
-- [Technologies Used]
-- [Usage]
-- [Features]
-- [License]
-- [Contact]
+## Dataset
+
+The dataset used for this project is stored in a Google Drive folder. You can access it using the link below:
+
+[Access Dataset][(https://drive.google.com/file/d/your_file_id/view?usp=sharing)](https://drive.google.com/drive/folders/10nbq9UnylQmtGKRvN_1yQYtXbOjRs80t?usp=drive_link)
+
 
 
 
