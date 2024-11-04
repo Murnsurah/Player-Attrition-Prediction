@@ -4,8 +4,7 @@ This repository contains a churn detection system using supervised learning tech
 ## Table of Contents
 
 - [Technologies Used]
-- [Getting Started]
-  - [Usage]
+- [Usage]
 - [Features]
 - [License]
 - [Contact]
