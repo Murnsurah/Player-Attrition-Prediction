@@ -28,24 +28,30 @@ This project is built using the following tools and libraries:
 1. **Run the FastAPI server**: Start the API server by running:
    ```bash
    uvicorn main:app --reload
-2. Send a POST request: Send a POST request to the /predict endpoint with player data in JSON format. Here’s an example request:
+2. **Send a POST request**: Send a POST request to the `/predict` endpoint with player data in JSON format. Here’s an example request:
+
+   ```json
    {
-    "level_id": 1,
-    "attempt_result": 10,
-    "attempt_duration": 20.5,
-    "f_reststep": 0.5,
-    "extra_help_used": 6,
-    "avg_attempt_duration": 10.5,
-    "avg_clearance_rate": 12.5,
-    "avg_clearance_duration": 20.5,
-    "avg_num_retries": 8.6,
-    "year": 2020
-}
-3. Receive the response: The API will return a response with the churn prediction and probability:
+       "level_id": 1,
+       "attempt_result": 10,
+       "attempt_duration": 20.5,
+       "f_reststep": 0.5,
+       "extra_help_used": 6,
+       "avg_attempt_duration": 10.5,
+       "avg_clearance_rate": 12.5,
+       "avg_clearance_duration": 20.5,
+       "avg_num_retries": 8.6,
+       "year": 2020
+   }
+
+3. **Receive the response**: The API will return a response with the churn prediction and probability:
+
+   ```json
    {
-    "churn_prediction": true,
-    "churn_probability": 0.65
-}
+       "churn_prediction": true,
+       "churn_probability": 0.65
+   }
+
 
 ## Features
 - Simple and effective fraud detection using supervised learning techniques.
