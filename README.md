@@ -54,13 +54,11 @@ This project is built using the following tools and libraries:
 
 
 ## Features
-- Simple and effective fraud detection using supervised learning techniques.
-- RESTful API built with FastAPI for easy integration.
-- Detailed logging of predictions and transactions.
-- Well-structured codebase that allows for easy modifications and enhancements.
+- Player Churn Prediction: Uses supervised learning to predict if a player is likely to churn, helping the gaming industry identify at-risk players.
+- RESTful API with FastAPI: Provides a straightforward endpoint for predictions, making it easy to integrate with other applications.
+- Detailed Logging: Logs predictions and transactions for better monitoring and analysis.
+- Modular Codebase: Well-structured code that allows for easy modifications and enhancements.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Contact
 For any inquiries or feedback, please contact me at https://murnsurah.github.io/Monsurat-Afolabi.github.io/
