@@ -32,7 +32,7 @@ uvicorn main:app --reload
 Then open your browser and go to  http://127.0.0.1:8000.
 
 2. Send a POST request to the /predict endpoint with transaction data in the following format:
-{
+ {
     "level_id": 1,
     "attempt_result": 10,
     "attempt_duration": 20.5,
@@ -44,6 +44,7 @@ Then open your browser and go to  http://127.0.0.1:8000.
     "avg_num_retries": 8.6,
     "year": 2020
 }
+
 3. Receive a response with churn prediction and probability:
 {
     "churn_prediction": true,
